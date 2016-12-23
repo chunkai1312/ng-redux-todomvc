@@ -2,7 +2,6 @@
   "name": "ng-redux-todomvc",
   "version": "0.0.0",
   "description": "TodoMVC example using Angular 1.5+ with Redux",
-  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "test": "cross-env NODE_ENV=test mocha --recursive --compilers js:babel-register test/**/*.spec.js",
@@ -10,11 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chunkai1312/angular-redux-todomvc.git"
+    "url": "https://github.com/chunkai1312/ng-redux-todomvc.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chunkai1312/angular-redux-todomvc/issues"
+    "url": "https://github.com/chunkai1312/ng-redux-todomvc/issues"
   },
   "dependencies": {
     "angular": "^1.5.0",
