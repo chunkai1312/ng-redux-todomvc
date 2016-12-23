@@ -1,7 +1,7 @@
 {
-  "name": "angular-redux-todomvc",
+  "name": "ng-redux-todomvc",
   "version": "0.0.0",
-  "description": "Angular 1.5+ with Redux TodoMVC example",
+  "description": "TodoMVC example using Angular 1.5+ with Redux",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
