@@ -2,6 +2,7 @@
   "name": "angular-redux-todomvc",
   "version": "0.0.0",
   "description": "Angular 1.5+ with Redux TodoMVC example",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "test": "cross-env NODE_ENV=test mocha --recursive --compilers js:babel-register test/**/*.spec.js",
