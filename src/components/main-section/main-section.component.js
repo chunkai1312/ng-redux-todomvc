@@ -58,7 +58,7 @@ export default {
         ng-if="$ctrl.todos.length > 0"
         completed-count="$ctrl.completedCount"
         active-count="$ctrl.activeCount"
-        filter="$ctrl.filter"
+        filter="{{$ctrl.filter}}"
         on-clear-completed="$ctrl.handleClearCompleted"
         on-show="$ctrl.handleShow">
       </footer>

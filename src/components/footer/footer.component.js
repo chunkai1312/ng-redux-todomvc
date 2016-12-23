@@ -27,7 +27,7 @@ export default {
       </span>
       <ul class="filters">
         <li ng-repeat="filter in $ctrl.filters">
-          <a ng-class="{'selected': (filter === $ctrl.selectedFilter)}"
+          <a ng-class="{'selected': (filter === $ctrl.filter)}"
             style="cursor: pointer"
             ng-click="$ctrl.onShow(filter)">
             {{$ctrl.filterTitles[filter]}}
