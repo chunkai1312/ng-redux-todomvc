@@ -1,6 +1,6 @@
-# angular-redux-todomvc
+# ng-redux-todomvc
 
-> Angular 1.5+ with Redux TodoMVC example
+> TodoMVC example using Angular 1.5+ with Redux
 
 ## Contains
 
@@ -14,8 +14,8 @@
 ## Usage
 
 ```sh
-$ git clone https://github.com/chunkai1312/angular-redux-todomvc.git
-$ cd angular-redux-todomvc
+$ git clone https://github.com/chunkai1312/ng-redux-todomvc.git
+$ cd ng-redux-todomvc
 $ npm install
 $ npm start
 
