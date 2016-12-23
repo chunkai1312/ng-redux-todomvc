@@ -1,0 +1,7 @@
+.todo-list li:last-child {
+	border-bottom: 1px solid #ededed;
+}
+
+.todo-list todo-item:last-child li {
+	border-bottom: none;
+}
