@@ -8,8 +8,11 @@ export default angular
     'ngInject'
 
     const middlewares = []
+
     const storeEnhancers = []
-    storeEnhancers.push(window.__REDUX_DEVTOOLS_EXTENSION__())
+    if (window.devToolsExtension) {
+      storeEnhancers.push(window.__REDUX_DEVTOOLS_EXTENSION__())
+    }
 
     $ngReduxProvider.createStoreWith(rootReducer, middlewares, storeEnhancers)
   })
